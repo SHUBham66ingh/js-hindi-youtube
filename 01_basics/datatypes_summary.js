@@ -4,3 +4,10 @@
 //
 // reference type(non primitive)
 // arrays object functions
+
+const heros= ["shaktiman","nagraj","doga"]
+let myObbj={
+    name:"hitesh",
+    age:22,
+}
+
