@@ -11,3 +11,8 @@ let myObbj={
     age:22,
 }
 
+const myFunction= function()
+{
+    console.log("hello")
+}
+
