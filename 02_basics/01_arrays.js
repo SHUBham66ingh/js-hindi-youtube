@@ -36,3 +36,5 @@ console.log(myn2);// [1,2,3]
 
 
 
+console.log(Array.isArray("Hitesh"));
+console.log(Array.from("Hitesh"));
