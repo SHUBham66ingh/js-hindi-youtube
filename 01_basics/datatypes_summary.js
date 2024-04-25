@@ -1,9 +1,21 @@
 //primitive
-//7 types: string,number,boolean,null,undefined,symbol,bigInt
+//7 types: string,number,boolean,null,undefined,symbol,bigInt;
 
-//
-// reference type(non primitive)
-// arrays object functions
+const score=100;
+const scoreValue=100.3
+
+const isLoggedIn=false;
+const outsideTemp=null;
+let userEmail;
+
+const id = Symbol('123')// they both are not equal....
+const anotherId= Symbol('123')
+// reference type(non primitive);
+// arrays, object , functions;
+
+const bigNumber= 324567908755712345n
+
+
 
 const heros= ["shaktiman","nagraj","doga"]
 let myObbj={
@@ -13,6 +25,6 @@ let myObbj={
 
 const myFunction= function()
 {
-    console.log("hello")
+    console.log("Hello world");
 }
 
