@@ -3,7 +3,7 @@ const course = {
     price:"999",
     courseInstructor:"hitesh"
 }
-//course.courseInstructor
+//course.courseInstructor// not recommended
 
 const {courseInstructor : Instructor}=  course
 
@@ -14,6 +14,11 @@ console.log(Instructor);
    // "name": "hitseh",
   //  'coursename": "js in hindi",
   //  "price":"free"
+//}
+//{
+ //   "name":"hitseh",
+ //   "coursename":"js in hindi",
+ //   "price":"free";
 //}
 
 [
