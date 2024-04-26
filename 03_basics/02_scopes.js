@@ -23,7 +23,31 @@ function one()
     }
     //console.log(website);
 
-    two()
+    two()// child can acces the parent...
+}
+//one()
+if(true)
+{
+    const username="shubham"
+    if(username==="shubham")
+    {
+        const website ="youtube"
+        console.log(username + website);
+    }
+    //console.log(website);
+}
+//console.log(username);
+
+console.log(addone(5));
+function addone(num)
+{
+    return num+1;
 }
 
-one()
+addTwo(5); // error
+
+const addTwo=function(num)
+{
+    return num+2;
+}
+
