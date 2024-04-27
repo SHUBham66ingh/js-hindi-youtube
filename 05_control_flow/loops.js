@@ -23,4 +23,13 @@ for(let i=0;i < myArray.length;i++)
     console.log(element);
 }
 
-//
+//break and continue
+for(i=1;i<10;i++)
+{
+    const elemnt=array[i];
+    if(i==5)
+    {
+        console.log(array[i]);
+        break;
+    }
+}
