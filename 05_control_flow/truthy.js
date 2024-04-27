@@ -15,7 +15,22 @@ if(userEmail===0)
 }
 const emptyObj={}
 
-    if(Object.keys(emtyObj).lenght===0)
+    if(Object.keys(emptyObj).lenght===0)
     {
       console.log("obj is empty");
     }
+// nullish coalescing operator
+let val;
+val=5 ?? 10//5
+val=null ?? 10 // 10
+val=undefined ?? 15 // 15
+val=null??120??20//120
+
+
+console.log(val);
+//terniary opeartor
+// condition? true:false
+const icePrice=100
+icePrice>=80  ? console.log("less thamn 50") : console.log("more than 50");
+
+
