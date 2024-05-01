@@ -5,9 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> chai aur code|| DOM  </title>
 </head>
-<body>
+<body style="background-color: #212121; color : white">
     <ul class="language">
         <li>javascript</li>
     </ul>
 </body>
+<script>
+
+    function addLanguage(langName)
+    {
+     const li =  document.createElement('li');
+     li.innerHTML= '${langName}'
+     document.querySelector('.language').
+     appendChild(li)
+    }
+    addLanguage("python");
+    addLanguage("typescript");
+
+    function addOptiLanguage(langName)
+    {
+       const li=  document.createElement('li');
+      li.appendChild(document.createTextNode)
+    }
+</script>
+
 </html>
