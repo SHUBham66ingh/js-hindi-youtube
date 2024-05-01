@@ -33,6 +33,19 @@ addOptLanguage('golang')
 // edit
 const secondLang=document.querySelector("li:nth-child(2)")
 //secondLang.innerHTML="Mojo";
+const newli = document.createElemnet('li');
+newli.textContent="Mojo";
+secondLang.replaceWith(newli);
+// edit
+const firstLang= document.querySelector("Li:fisrt-child");
+firstLang.outerHTML= '<li>TypeScript</li>'
+
+
+// remove
+
+const lastLang= document.querySelctor('li:last-child')
+lastLang.remove();
+
 </script>
 
 </html>
