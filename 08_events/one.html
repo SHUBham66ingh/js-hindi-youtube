@@ -66,6 +66,7 @@ document.getElementById('owl').addEventListener('click',function(e){
 
 document.getElementById('google').addEventListener
 ('click',function(e){
+    e.defaultPrevented();
     console.log("google click");
     e.defaultPrevented()
 },false);
