@@ -73,9 +73,12 @@
 // },false);
 
  document.querySelector('#images').addEventListener
- ('click,function(){
-
- })
+ ('click',function(e){
+  console.log(e.target.parentNode);
+  let removeIt = e.target.parentNode;
+  removeIt.remove()
+    // remove.parentNode.removeChild(removeIt)
+  })
 
 </script>
 </html>
