@@ -50,9 +50,20 @@
 //     alert("owl clicked");
 // }
 
-document.getElementById('owl').addEventListener('click',function(){
-    alert("owl clicked again");
-})
+//  type , timestamp , defaultPrevented
+// target , toElement , srcElement , curent target,
+// clientX , clientY , screenY
+// altKey , cltrKey , shiftKey , KeyCode
+document.getElementById('images').addEventListener('click',function(e){
+   console.log(" clicked inside the ul");
+},false)
+
+document.getElementById('owl').addEventListener('click',function(e){
+   console.log("owl clicked");
+   e.stopPropagation()
+},false)
+
+
 </script>
 </html>
     
