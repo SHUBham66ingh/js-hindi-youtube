@@ -69,7 +69,11 @@ resolve({username: "shubham",password:123454})
     },1000)
 });
 
-async function  consumePromiseFive({
- const response =   await promiseFive
+
+async function  consumePromiseFive(){
+   const response= await promiseFive
    console.log(response);
-})
+}
+
+consumePromiseFive()
+ 
