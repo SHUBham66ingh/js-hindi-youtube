@@ -2,9 +2,10 @@
 const promiseOne= new Promise(function(resolve,reject){
 // do any async task
 //  db calls, CRYPTOgraphically, network
-setTimneout(function()
+setTimeout(function()
 {
-  console.log('async task is complete')
+  console.log('async task is complete');
+  resolve()
 },1000)
 })
 
