@@ -1,8 +1,8 @@
 const accountId = 14453
 let accountEmail="hits@gmail.com"
 var accountPassword ="12345"
-accoutnCity="jaipur"
-let accountState = " ";
+accoutnCity="jaipur"// do not use this
+let accountState = " ";// undefined
 
 //accountId=2;// not allowed
 accountId=12355;
@@ -21,3 +21,4 @@ console.log([accountId]);
 
 console.table([accountId,accountEmail,accountPassword,accoutnCity,accountState]);
 
+//done...........
