@@ -14,9 +14,10 @@
     xhr.onreadyStatechange = fucntion()
     {
         console.log(xhr.readyState);
-        if(xhr.readyState===4)
+        if (xhr.readyState===4)
         {
-         console.log(responseText);
+            const data = this.responseText;
+         console.log(data.followers);
         }
     }
 
