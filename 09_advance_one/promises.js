@@ -18,4 +18,6 @@ new Promise(function(resolve , reject){
 console.log("Async task 2");
     resolve()
     },1000)
-}).then(function()
+}).then(function(){
+  
+})
