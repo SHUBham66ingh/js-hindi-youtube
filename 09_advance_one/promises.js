@@ -78,5 +78,11 @@ async function  consumePromiseFive(){
  { console.log(error);
  }
 }
+
 consumePromiseFive()
+
+asyn function getAllUsers(){
+  const response = await fetch();
+ const data= respone.jason()
+}
  
