@@ -5,8 +5,9 @@ const user={
 
     getUserDetails: function(){
         // console.log("got user details from database");
-        console.log(`username : ${username}`);
+        // console.log(`username : ${username}`);
+        console.log(this);
     }
   }
   console.log(user.username)
-  console.log(user.getUserDetails)();
+  console.log(user.getUserDetails());
