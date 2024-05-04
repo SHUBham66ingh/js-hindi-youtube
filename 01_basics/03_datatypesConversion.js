@@ -3,25 +3,27 @@ let score ="33abc";
 console.log(typeof score);//string
 console.log(typeof (score));//string
 
-let valueInNumber=Number(score)
+let valueInNumber=Number(score)//converting string into  number
 console.log(typeof valueInNumber);// number
-console.log(valueInNumber); // NaN
+console.log(valueInNumber); // NaN// string is converted  into number but not defined
 
-
+//string => number
 // "33" => 33
 // "33abc" => NaN
 // true= 1 false=0
  let isLoggedIn= 1;
  let boolIsloggedIn = Boolean(isLoggedIn);
- console.log(boolIsloggedIn);
+ console.log(boolIsloggedIn); // true
 
+//  conversion of boolean
  // 1=> true  0=> false;
  // ""=> false;
  // "hitesh" => true
 
  let someNumber = 33
+
  let stringNumber=  String(someNumber);
- console.log(stringNumber);
+ console.log(stringNumber); //33
  console.log(typeof stringNumber);
 
 
