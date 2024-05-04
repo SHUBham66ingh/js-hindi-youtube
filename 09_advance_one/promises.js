@@ -19,5 +19,5 @@ console.log("Async task 2");
     resolve()
     },1000)
 }).then(function(){
-  
+          console.log("async 2 is resolved")                          
 })
