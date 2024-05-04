@@ -8,7 +8,11 @@
 <body style="background-color: #212121;">
 </body>
 <script>
+    const requsetUrl='https://api.github.com/users/SHUBham66ingh'
     const xhr=  new XMLHttpRequset();
-    xhr.open('GET','https://api.github.com/users/SHUBham66ingh');
+    // xhr.open('GET',requestUrl);
+    xhr.onreadyStatechange()
+    console.log(xhr.readyState);
+    xhr.send()
 </script>
 </html>
