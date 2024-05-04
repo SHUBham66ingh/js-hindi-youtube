@@ -30,32 +30,34 @@ console.log(valueInNumber); // NaN// string is converted  into number but not de
  //**************operations*****************//
 
  let value =3;
- let negValue = -value;
+ let negValue = -value; //-3
  console.log(negValue);
 
 
  let str1= "hello"
  let str2= "shubham"
 
- let str3= str1+str2;
+ let str3= str1+str2;// HELLO SHUBHAM
  console.log(str3);// cocatenation of the strings.....
 
  console.log("1"+2);//12
  console.log(1+"2");//12
  console.log("1"+2+2);//122
- console.log(1+2+"2");//32
+ console.log(1+2+"2");//32// RULE
 
+ console.log(true) // true
  console.log(+true) // 1
  console.log(+" "); // 0
 
  let num1,num2,num3;
- num1=num2=num3= 2+2;
+ num1=num2=num3= 2+2;// do not use
 
  let gameCouner=100;
- gameCounter++;
+ gameCounter++; // postfix
  console.log(gameCouner); // 101
 
 
+ //done>>>>>>>>>>>>>>>>>
 
 
 
