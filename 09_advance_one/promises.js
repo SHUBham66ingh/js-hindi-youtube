@@ -34,7 +34,7 @@ promiseOneThree.then(function(user){
 
 
 const promiseFour= new Promise(function(resolve,reject){
-    setTimeour(function(){
+    setTimeout(function(){
     let error = true;
     if(!error)
         {
@@ -55,5 +55,18 @@ console.log(username);
 }).catch(function(error){
   console.log("error");
 }).finally(() => console.log("the promise is either resolved or rejected"));
+
+
+const promiseFive= new promise(function(resolve,reject){
+  setTimeout(function(){
+    let error = true;
+    if(!error)
+        {
+resolve({username: "shubham",password:123454})
+        } else{
+            reject('ERROR:js something went wrong')
+        }
+    },1000)
+})
 
  
