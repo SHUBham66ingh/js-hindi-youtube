@@ -9,6 +9,20 @@ const user={
         console.log(this);
     }      
   }
-  console.log(user.username)
-//   console.log(user.getUserDetails());
-  console.log(this);
+//   console.log(user.username)
+// //   console.log(user.getUserDetails());
+//   console.log(this);
+
+
+function User(username, loginCount , isLoggedIn) 
+{
+    this.username = username;
+    this.loginCount = loginCount;
+    this.isLoggegdIn = isLoggedIn;
+
+    return this
+}
+
+const userOne = User(shubham,12,true)
+const userTwo=  User("ChaiAurCode,11,false")
+console.log(Userone)
