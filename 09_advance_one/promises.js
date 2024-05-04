@@ -21,3 +21,36 @@ console.log("Async task 2");
 }).then(function(){
           console.log("async 2 is resolved")                          
 })
+
+const promiseOneThree = new Promise(function(resolve,reject){
+   setTimeout(function(resolve, reject){
+     resolve({username:"chai",email:"chai@gmail.com"})
+   },1000)
+})
+
+promiseOneThree.then(function(user){
+ console.log(user)
+})
+
+
+const promiseFour= new Promise(function(resolve,reject){
+    setTimeour(function(){
+    let error = true;
+    if(!error)
+        {
+resolve({username: "shubham",password:123454})
+        } else{
+            reject('ERROR: something went wrong')
+        }
+    },1000)
+})
+
+
+promiseFour.then((user)=>{
+  console.log(user);
+  return user.username
+}).then((username) => {
+console.log(username);
+}).catch(function(error))
+
+ 
