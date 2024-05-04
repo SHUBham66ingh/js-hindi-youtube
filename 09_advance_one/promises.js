@@ -67,6 +67,9 @@ resolve({username: "shubham",password:123454})
             reject('ERROR:js something went wrong')
         }
     },1000)
-})
+});
 
- 
+async function  consumePromiseFive({
+ const response =   await promiseFive
+   console.log(response);
+})
