@@ -23,6 +23,6 @@ function User(username, loginCount , isLoggedIn)
     return this
 }
 
-const userOne = User(shubham,12,true)
-const userTwo=  User("ChaiAurCode,11,false")
+const userOne = new User(shubham,12,true)
+const userTwo= new User("ChaiAurCode,11,false")
 console.log(Userone)
