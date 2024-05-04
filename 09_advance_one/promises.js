@@ -71,9 +71,12 @@ resolve({username: "shubham",password:123454})
 
 
 async function  consumePromiseFive(){
-   const response= await promiseFive
-   console.log(response);
+ try{
+  const respone= await promiseFive
+  console.log(respone);
+ } catch(error)
+ { console.log(error);
+ }
 }
-
 consumePromiseFive()
  
