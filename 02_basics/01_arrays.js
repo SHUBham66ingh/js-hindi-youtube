@@ -8,20 +8,20 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Array methods
 
-// myArr.push(6)
-// myArr.push(7)
-// myArr.pop()
+// myArr.push(6)    [0,1,2,3,4,5,6]
+// myArr.push(7)    [0,1,2,3,4,5,6,7]  
+// myArr.pop()      [0,1,2,3,4,5,6]
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9)  [9,0,1,2,3,4,5,6]
+// myArr.shift()     [0,1,2,3,4,5,6]
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(3));
+// console.log(myArr.includes(9)); false
+// console.log(myArr.indexOf(3));  3
 
 // const newArr = myArr.join()
 
-// console.log(myArr);
-// console.log( newArr);
+// console.log(myArr);  [0,1,2,3,4,5]
+// console.log( newArr);  0,1,2,3,4,5 // converts into string datatype
 
 
 // slice, splice
@@ -38,3 +38,6 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
+
+
+// done>>>>>>>>>>>>>>>
