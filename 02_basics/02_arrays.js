@@ -1,7 +1,7 @@
-const marvel_heros = ["thor", "Ironman", "spiderman"]
-const dc_heros = ["superman", "flash", "batman"]
+const marvel_heros = ["thor", "Ironman", "spiderman"];
+const dc_heros = ["superman", "flash", "batman"];
 
-// marvel_heros.push(dc_heros)
+// marvel_heros.push(dc_heros)// array ke ander array
 
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
